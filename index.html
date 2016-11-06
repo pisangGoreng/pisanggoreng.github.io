@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Endy Webpage</title>
+  <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+<!-- ------------------------------ BAGIAN CLASS HEADER ------------------------------ -->
+    <div class="header">
+      <h1>Endy Webpage</h1>
+      <h2>Welcome Everyone!</h2>
+    </div>
+
+<!-- ------------------------------ BAGIAN CLASS BODY ------------------------------ -->
+    <div class="body">
+        <img src="image/buah.jpg" width="300" height="300" alt="buah">
+        <br>
+      <p>Hi, I am Endy and this is my first webpage. Let's be a fullstack developer with Hacktiv8.</p>
+        <br>
+      <p>This is my target list:</p>
+      <ol>
+        <li>Being fullstack developer</li>
+        <li>Create a wonderful website</li>
+      </ol>
+        <br>
+      <p>Here is my contact:</p>
+      <ul>
+        <li>Email: 7ofpentacles@gmail.com</li>
+        <li>Phone: 0813-1033-8777</li>
+      </ul>
+        <br>
+        <p>My Daily Routine</p>
+        <table border="1">
+            <tr>
+                <th> </th>
+                <th> Morning </th>
+                <th> Afternoon </th>
+                <th> Evening </th>
+                <th> Night </th>
+            </tr>
+            <tr>
+                <td> Monday </td>
+                <td class="tabel" colspan="4" rowspan="7"> <h2> Eat, Coding,& Sleep </h2></td>
+            </tr>
+            <tr>
+                <td> Tuesday </td>
+            </tr>
+            <tr>
+                <td> Wednesday </td>
+            </tr>
+            <tr>
+                <td> Thursday </td>
+            </tr>
+            <tr>
+                <td> Friday </td>
+            </tr>
+            <tr>
+                <td> Saturday </td>
+            </tr>
+            <tr>
+                <td> Sunday </td>
+            </tr>
+        </table>
+    </div>
+
+<!-- ------------------------------ BAGIAN CLASS COMMENT ------------------------------ -->
+    <div class="comment">
+      <h3>Leave your comment below</h3>
+      <form>
+          <!-- First Name -->
+          <label for="first-name">First Name</label>
+          <br>
+          <input name="first-name" id="first-name" type="text">
+          <br>
+
+          <!-- Last Name -->
+          <label for="last-name">Last Name</label>
+          <br>
+          <input name="last-name" id="last-name" type="text">
+          <br>
+
+          <!-- Gender -->
+          <label for="gender">Gender :</label>
+          <br>
+          <input type="radio" name="gender" id="male" value="male"> Male
+          <br>
+          <input type="radio" name="gender" id="female" value="female"> Female
+          <br>
+          <input type="radio" name="gender" id="other" value="Other"> Other
+          <br>
+
+          <!-- Favorite Cars -->
+          <label for="favorite-cars">Favorite Cars :</label>
+          <br>
+          <select name="merek-mobil">
+            <option name="volvo" id="volvo" value="volvo">Volvo</option>
+            <option name="bmw" id="bmw" value="bmw">Bmw</option>
+            <option name="toyota" id="toyota" value="toyota">Toyota</option>
+            <option name="honda" id="honda" value="honda">Honda</option>
+          </select>
+          <br>
+
+          <!-- Language Spoken -->
+          <label for="language-spoken">Language Spoken</label>
+          <br>
+          <input type="checkbox" name="bahasa-indonesia" id="bahasa-indonesia" value="bahasa-indonesia">Bahasa Indonesia
+          <br>
+          <input type="checkbox" name="english" id="english" value="bahasa-indonesia">English
+          <br>
+          <input type="checkbox" name="other" id="other" value="other">Other
+          <br>
+
+          <!-- Bio -->
+          <label for="bio">Bio</label>
+          <br>
+          <textarea name="bio" id="bio" rows="10" cols="35"></textarea>
+          <br>
+
+          <!-- Submit -->
+          <input type="submit" value="Submit">
+      </form>
+    </div>
+</body>
+</html>
